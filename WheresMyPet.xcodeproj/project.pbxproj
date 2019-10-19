@@ -16,6 +16,8 @@
 		15313F6D235B4A4400A1ABD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15313F6B235B4A4400A1ABD2 /* LaunchScreen.storyboard */; };
 		15313F78235B4A4400A1ABD2 /* WheresMyPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15313F77235B4A4400A1ABD2 /* WheresMyPetTests.swift */; };
 		15313F83235B4A4400A1ABD2 /* WheresMyPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15313F82235B4A4400A1ABD2 /* WheresMyPetUITests.swift */; };
+		15313F96235B5A7E00A1ABD2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15313F95235B5A7E00A1ABD2 /* MenuView.swift */; };
+		15313F99235B5FC800A1ABD2 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15313F98235B5FC800A1ABD2 /* MenuItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		15313F7E235B4A4400A1ABD2 /* WheresMyPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheresMyPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15313F82235B4A4400A1ABD2 /* WheresMyPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresMyPetUITests.swift; sourceTree = "<group>"; };
 		15313F84235B4A4400A1ABD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15313F95235B5A7E00A1ABD2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		15313F98235B5FC800A1ABD2 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,9 @@
 		15313F5C235B4A3D00A1ABD2 /* WheresMyPet */ = {
 			isa = PBXGroup;
 			children = (
+				15313F92235B589E00A1ABD2 /* View */,
 				15313F5D235B4A3D00A1ABD2 /* AppDelegate.swift */,
 				15313F5F235B4A3D00A1ABD2 /* SceneDelegate.swift */,
-				15313F64235B4A3D00A1ABD2 /* ContentView.swift */,
 				15313F66235B4A4400A1ABD2 /* Assets.xcassets */,
 				15313F6B235B4A4400A1ABD2 /* LaunchScreen.storyboard */,
 				15313F6E235B4A4400A1ABD2 /* Info.plist */,
@@ -137,6 +141,24 @@
 				15313F84235B4A4400A1ABD2 /* Info.plist */,
 			);
 			path = WheresMyPetUITests;
+			sourceTree = "<group>";
+		};
+		15313F92235B589E00A1ABD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15313F97235B5FBC00A1ABD2 /* Menu */,
+				15313F64235B4A3D00A1ABD2 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15313F97235B5FBC00A1ABD2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				15313F95235B5A7E00A1ABD2 /* MenuView.swift */,
+				15313F98235B5FC800A1ABD2 /* MenuItemView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15313F96235B5A7E00A1ABD2 /* MenuView.swift in Sources */,
 				15313F63235B4A3D00A1ABD2 /* WheresMyPet.xcdatamodeld in Sources */,
 				15313F5E235B4A3D00A1ABD2 /* AppDelegate.swift in Sources */,
+				15313F99235B5FC800A1ABD2 /* MenuItemView.swift in Sources */,
 				15313F65235B4A3D00A1ABD2 /* ContentView.swift in Sources */,
 				15313F60235B4A3D00A1ABD2 /* SceneDelegate.swift in Sources */,
 			);

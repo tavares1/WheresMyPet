@@ -9,8 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+	let typeOfAnimals = ["Dog", "Cat", "Exotic"]
+
+	
     var body: some View {
-        Text("Hello World")
+		NavigationView {
+			ZStack {
+				Color.red
+				VStack {
+					MenuView()
+				}
+			}
+		.navigationBarTitle("Where's my Pet?")
+		}
     }
 }
 
